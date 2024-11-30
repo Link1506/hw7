@@ -3,13 +3,13 @@ public class Main {
         System.out.println("Hello world!");
 
         System.out.println(" Task 1");
-        for (int i = 1; i <= 10; i = i + 1) {
+        for (int i = 1; i <= 10; i++) {
             System.out.println(i + " ");
         }
 
         System.out.println(" Task 2");
 
-        for (int i = 10; i >= 1; i = i - 1) {
+        for (int i = 10; i >= 1; i--) {
             System.out.println(i + "");
         }
 
@@ -21,7 +21,7 @@ public class Main {
 
         System.out.println(" Task 4");
 
-        for (int i = 10; i >= -10; i = i - 1) {
+        for (int i = 10; i >= -10; i--) {
             System.out.println(i + "");
         }
 
@@ -47,7 +47,7 @@ public class Main {
 
         int solary = 29000;
         int total = 0;
-        for (int i = 1; i <= 12; i = i + 1) {
+        for (int i = 1; i <= 12; i++) {
             total = total + solary;
             System.out.println(" Месяц " + i + " сумма накоплений равна " + total + " рублей ");
         }
@@ -56,7 +56,7 @@ public class Main {
 
         int solary1 = 29000;
         int total1 = 0;
-        for (int i = 1; i <= 12; i = i + 1) {
+        for (int i = 1; i <= 12; i++) {
             total1 = total1 + total1 / 100;
             total1 = total1 + solary1;
             System.out.println(" Месяц " + i + " сумма накоплений равна " + total1 + " рублей ");
@@ -64,12 +64,11 @@ public class Main {
         }
 
         System.out.println(" Task 10");
-        int number = 2;
-        int sum = 0;
 
-        for (int i = 2; i <= 10; i = i + 1) {
-            sum = number * i;
-            System.out.println(+number + "*" + i + "=" + sum);
+
+        for (int i = 1; i <= 10; i++) {
+
+            System.out.println("2" + "*" + i + "=" + 2 * i);
         }
 
 
