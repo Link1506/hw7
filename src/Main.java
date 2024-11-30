@@ -43,6 +43,34 @@ public class Main {
             System.out.println(i + "");
         }
 
+        System.out.println(" Task 8");
+
+        int solary = 29000;
+        int total = 0;
+        for (int i = 1; i <= 12; i = i + 1) {
+            total = total + solary;
+            System.out.println(" Месяц " + i + " сумма накоплений равна " + total + " рублей ");
+        }
+
+        System.out.println(" task 9");
+
+        int solary1 = 29000;
+        int total1 = 0;
+        for (int i = 1; i <= 12; i = i + 1) {
+            total1 = total1 + total1 / 100;
+            total1 = total1 + solary1;
+            System.out.println(" Месяц " + i + " сумма накоплений равна " + total1 + " рублей ");
+
+        }
+
+        System.out.println(" Task 10");
+        int number = 2;
+        int sum = 0;
+
+        for (int i = 2; i <= 10; i = i + 1) {
+            sum = number * i;
+            System.out.println(+number + "*" + i + "=" + sum);
+        }
 
 
     }
